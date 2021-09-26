@@ -35,4 +35,7 @@ public class CourseRegistered {
         return registeredSubjects.get(semester);
     }
 
+    public Map<Integer, List<Subject>> getHistory(){
+        return this.registeredSubjects;
+    }
 }
